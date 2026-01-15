@@ -80,13 +80,13 @@
     </choose>
   </macro>
   <citation>
-    <sort>
-      <key variable="citation-number"/>
-    </sort>
-    <layout prefix="[" suffix="]" delimiter=" ">
-      <text variable="citation-number"/>
-    </layout>
-  </citation>
+  <sort>
+    <key variable="citation-number"/>
+  </sort>
+  <layout prefix="[" suffix="]" delimiter="] [">
+    <text variable="citation-number"/>
+  </layout>
+</citation>
   <bibliography entry-spacing="0" second-field-align="flush">
     <layout suffix=".">
       <text variable="citation-number" prefix="[" suffix="]"/>
